@@ -40,10 +40,10 @@ e.g.
  | |-rag_with_elasticsearch_hybrid_cat.py
  | |-rag_with_elasticsearch_improved.py
  | |-rag_with_elasticsearch_prompt.py
- |-IR_경진대회-1조-발표자료.pdf
  |-Test set
  | |-compare_modified.ipynb
  | |-compare_submission.ipynb
+ |-IR_경진대회-1조-발표자료.pdf
  |-Private LV.png
  |-requirements.txt
  |-README.md
