@@ -60,7 +60,9 @@ e.g.
 
 ### Leader Board
 
-![Private LV](Private%20LV.png)
+<p align="center">
+  <img src="Private LV.png" alt="Private LV" width="600">
+</p>
 
 ### Presentation
 
