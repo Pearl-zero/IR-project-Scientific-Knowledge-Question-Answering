@@ -60,7 +60,7 @@ e.g.
 
 ### Leader Board
 
-![Private LV](LV.png)
+![Private LV](Private LV.png)
 
 ### Presentation
 
