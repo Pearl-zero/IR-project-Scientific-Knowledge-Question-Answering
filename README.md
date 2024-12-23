@@ -1,0 +1,73 @@
+# Scientific Knowledge Question Answering
+## Team
+
+| ![김동규](https://avatars.githubusercontent.com/u/102230809?s=88&v=4) | ![김지환](https://avatars.githubusercontent.com/u/17960812?s=88&v=4) | ![이주하](https://avatars.githubusercontent.com/u/45289805?s=88&v=4) | ![한성범](https://avatars.githubusercontent.com/u/51690185?s=88&v=4) | ![진주영](https://avatars.githubusercontent.com/u/173867600?s=88&v=4) |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+|            [김동규](https://github.com/Lumiere001)             |            [김지환](https://github.com/jihwanK)             |            [이주하](https://github.com/jl3725)             |            [한성범](https://github.com/winterbeom)             |            [진주영](https://github.com/Pearl-zero)             |
+|                            팀장, LLM model선정, query Routing                             |                            embedding model test                             |                            prompt engineering, Chunking, Query expansion                             |                            Dense Retrieve, Rerank                             |                            Hybrid retrieve, Rerank, EDA                             |
+
+## 0. Overview
+
+### Requirements
+- sentence_transformers==2.2.2
+- elasticsearch==8.8.0
+- openai==1.7.2
+
+## 1. Competiton Info
+
+### Overview
+
+- 질문과 이전 대화 히스토리를 보고 참고할 문서를 검색엔진에서 추출 후 이를 활용하여 질문에 적합한 대답을 생성하는 태스크
+
+### Timeline
+
+- Dec 16, 2024 - Start Date
+- Dec 19, 2024 - Final submission deadline
+
+## 2. Components
+
+### Directory
+
+- _Insert your directory structure_
+
+e.g.
+```
+├── rag_with_elasticsearch_test4.py
+├── IR_경진대회-1조-발표자료.pptx
+└── README.md
+```
+
+## 3. Data descrption
+
+### Dataset overview
+
+- 과학 상식 정보를 담고 있는 순수 색인 대상 문서 4200여개
+- doc_id'에는 uuid로 문서별 id가 부여되어 있고 'src'는 출처를 나타내는 필드입니다. 그리고 실제 RAG에서 레퍼런스로 참고할 지식 정보는 'content' 필드에 저장되어 있음.
+- MMLU, ARC 데이터를 기반으로 생성
+
+## 4. Modeling
+
+### Model descrition
+
+- embedding model : dragonkue/bge-m3-ko
+- LLM model : gpt 3.5-turbo
+
+### Modeling Process
+
+- reranking, hybrid search 진행.
+
+## 5. Result
+
+### Leader Board
+
+![Private LV](LV.png)
+
+### Presentation
+
+[발표 자료](IR_경진대회-1조-발표자료.pptx)
+
+## etc
+
+### Reference
+
+- hugging face etc.
