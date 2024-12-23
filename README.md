@@ -32,9 +32,21 @@
 
 e.g.
 ```
-├── rag_with_elasticsearch_test4.py
-├── IR_경진대회-1조-발표자료.pptx
-└── README.md
+ |-Code
+ | |-category_based_rag.py
+ | |-EDA.ipynb
+ | |-hybrid_cat_rerank.py
+ | |-rag_with_elasticsearch_hybrid.py
+ | |-rag_with_elasticsearch_hybrid_cat.py
+ | |-rag_with_elasticsearch_improved.py
+ | |-rag_with_elasticsearch_prompt.py
+ |-IR_경진대회-1조-발표자료.pdf
+ |-Test set
+ | |-compare_modified.ipynb
+ | |-compare_submission.ipynb
+ |-Private LV.png
+ |-requirements.txt
+ |-README.md
 ```
 
 ## 3. Data descrption
