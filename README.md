@@ -1,10 +1,10 @@
 # Scientific Knowledge Question Answering
 ## Team
 
-| ![김동규](https://avatars.githubusercontent.com/u/102230809?s=88&v=4) | ![김지환](https://avatars.githubusercontent.com/u/17960812?s=88&v=4) | ![이주하](https://avatars.githubusercontent.com/u/45289805?s=88&v=4) | ![한성범](https://avatars.githubusercontent.com/u/51690185?s=88&v=4) | ![진주영](https://avatars.githubusercontent.com/u/173867600?s=88&v=4) |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [김동규](https://github.com/Lumiere001)             |            [김지환](https://github.com/jihwanK)             |            [이주하](https://github.com/jl3725)             |            [한성범](https://github.com/winterbeom)             |            [진주영](https://github.com/Pearl-zero)             |
-|                            팀장, LLM model선정, query Routing                             |                            embedding model test                             |                            prompt engineering, Chunking, Query expansion                             |                            Dense Retrieve, Rerank                             |                            Hybrid retrieve, Rerank, EDA                             |
+| <img src="https://avatars.githubusercontent.com/u/102230809?s=60&v=4" width="200"> | <img src="https://avatars.githubusercontent.com/u/17960812?s=60&v=4" width="200"> | <img src="https://avatars.githubusercontent.com/u/45289805?s=60&v=4" width="200"> | <img src="https://avatars.githubusercontent.com/u/51690185?s=60&v=4" width="200"> | <img src="https://avatars.githubusercontent.com/u/173867600?s=60&v=4" width="200"> |
+|:---:|:---:|:---:|:---:|:---:|
+| [김동규](https://github.com/Lumiere001) | [김지환](https://github.com/jihwanK) | [이주하](https://github.com/jl3725) | [한성범](https://github.com/winterbeom) | [진주영](https://github.com/Pearl-zero) |
+| LLM Model<br>Selection<br>Query Routing<br>Team Leader | Embedding<br>Model<br>Testing<br>Evaluation | Prompt<br>Engineering<br>Query Expansion<br>Chunking | Dense<br>Retrieve<br>Reranking<br>Evaluation | Hybrid<br>Retrieve<br>Reranking<br>EDA |
 
 ## 0. Overview
 
